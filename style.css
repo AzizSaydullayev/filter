@@ -1,0 +1,52 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.row{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 50px;
+padding: 20px 50px;
+}
+.card{
+background-color: rgb(107, 21, 187);
+width: 200px;
+text-align: center;
+color: white;
+border-radius: 20px;
+height: 150px;
+padding: 10px 10px;
+}
+body{
+background-color: rgb(18, 2, 50);
+}
+.container{
+display: flex;
+justify-content: center;
+margin-top: 160px;
+}
+nav{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+button{
+width: 100px;
+height: 30px;
+text-align: center;
+border-radius: 10px;
+border: none;
+background-color: black;
+color: white;
+cursor: pointer;
+}
+input{
+width: 300px;
+outline: none;
+border-radius: 10px;
+}
+body.dark-mode {
+    background-color: white;
+}
